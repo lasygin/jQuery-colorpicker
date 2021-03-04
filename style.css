@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+  width: fit-content;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
+
+#red,
+#green,
+#blue {
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
+}
+
+#swatch {
+  width: 200px;
+  height: fit-content;
+  padding: 1em;
+  margin-top: 18px;
+  margin-left: 350px;
+  user-select: none;
+}
+
+#red .ui-slider-range {
+  background: #ef2929;
+}
+#red .ui-slider-handle {
+  border-color: #ef2929;
+}
+#green .ui-slider-range {
+  background: #8ae234;
+}
+#green .ui-slider-handle {
+  border-color: #8ae234;
+}
+#blue .ui-slider-range {
+  background: #729fcf;
+}
+#blue .ui-slider-handle {
+  border-color: #729fcf;
+}
